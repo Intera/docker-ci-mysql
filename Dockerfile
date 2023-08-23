@@ -1,4 +1,4 @@
-FROM mysql:5.7
+FROM mysql:8.0
 
 COPY mysqld_disable_strict_mode.cnf /etc/mysql/conf.d/mysqld_disable_strict_mode.cnf
 
